@@ -6,15 +6,11 @@ public static void main(String x[])
 {
 Scanner sc=new Scanner(System.in);
 int n=sc.nextInt();
-if(n>0)
+if(n%2==0)
 {
-System.out.print("Positive");
+System.out.print("Even");
 }
-else if(n<0)
-{
-System.out.print("Negative");
-}
-else if(n==0)
+else
 {
 system.out.print("Zero");
 }
